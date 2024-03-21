@@ -132,7 +132,7 @@ where cust_salary Between 100000 AND 160000;
 -- LIKE 
 select *
 from customers
-where cust_first_name like'p%';
+where cust_first_name like'S%';
 select* 
 from customers
 where cust_first_name like'_n%' AND cust_last_name like'%l';
